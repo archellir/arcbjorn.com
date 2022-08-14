@@ -8,3 +8,55 @@ html {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
     "Noto Color Emoji";
 }
+
+body {
+  --bg: #f9f5ef;
+  --color: #1b1d1e;
+  --focusColor: #f15025;
+  --titleColor: #008080;
+
+  /* Terminal */
+  --userandhostColor: var(--titleColor);
+  --infolocationColor: var(--focusColor);
+  --companyColor: var(--focusColor);
+
+  /* Quick Links */
+  --quickLinkButtonColor: var(--color);
+  --quickLinkButtonHoverColor: var(--bg);
+
+  --quickLinkButtonBackgroundColor: transparent;
+  --quickLinkButtonBackgroundHoverColor: var(--color);
+
+  --quickLinkButtonBorderColor: var(--color);
+  --quickLinkButtonBorderHoverColor: transparent;
+
+  /* Extra Page */
+  --extraPageBorderColor: var(--color);
+
+  /* Platform Links */
+  --extraLinkColor: var(--titleColor);
+  --extraLinkHoverColor: var(--bg);
+  --extraLinkBackgroundHoverColor: var(--focusColor);
+
+  /* Books */
+  --bookEntryHoverColor: var(--bg);
+  --bookEntryBackgroundHoverColor: var(--focusColor);
+
+  background-color: var(--bg);
+  color: var(--color);
+
+  /* @apply font-ibm; */
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #1b1d1e;
+  --color: #dddddd;
+  --focusColor: #f58a07;
+  --titleColor: #01dae0;
+
+  --extraLinkBackgroundHoverColor: var(--color);
+
+  --bookEntryBackgroundHoverColor: var(--color);
+}
