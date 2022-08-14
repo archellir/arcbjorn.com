@@ -2,8 +2,10 @@ lockfileVersion: 5.4
 
 specifiers:
   '@solid-primitives/i18n': ^1.1.0
+  '@types/js-cookie': ^3.0.2
   '@types/node': ^18.7.3
   autoprefixer: ^10.4.7
+  js-cookie: ^3.0.1
   postcss: ^8.4.14
   solid-js: ^1.4.7
   tailwindcss: ^3.1.6
@@ -13,9 +15,11 @@ specifiers:
 
 dependencies:
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.7
+  js-cookie: 3.0.1
   solid-js: 1.4.7
 
 devDependencies:
+  '@types/js-cookie': 3.0.2
   '@types/node': 18.7.3
   autoprefixer: 10.4.7_postcss@8.4.14
   postcss: 8.4.14
@@ -399,6 +403,10 @@ packages:
     dependencies:
       solid-js: 1.4.7
     dev: false
+
+  /@types/js-cookie/3.0.2:
+    resolution: {integrity: sha512-6+0ekgfusHftJNYpihfkMu8BWdeHs9EOJuGcSofErjstGPfPGEu9yTu4t460lTzzAMl2cM5zngQJqPMHbbnvYA==}
+    dev: true
 
   /@types/node/18.7.3:
     resolution: {integrity: sha512-LJgzOEwWuMTBxHzgBR/fhhBOWrvBjvO+zPteUgbbuQi80rYIZHrk1mNbRUqPZqSLP2H7Rwt1EFLL/tNLD1Xx/w==}
@@ -931,6 +939,11 @@ packages:
     resolution: {integrity: sha512-DBVOQNiPKnGMxRMLIYSwERAS5MVY1B7xYiGnpgctsOFvVDz9f9PFXXxMcTOHuoqYp4NK9qFYQaIC1NRRxLMpBQ==}
     engines: {node: '>=12.13'}
     dev: true
+
+  /js-cookie/3.0.1:
+    resolution: {integrity: sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw==}
+    engines: {node: '>=12'}
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
