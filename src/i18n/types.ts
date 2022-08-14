@@ -92,7 +92,7 @@ export interface Translations {
   extra: ExtraTranslation;
 }
 
-export const enum ELanguage {
+export enum ELanguage {
   EN = "en",
   DE = "de",
   ES = "es",
