@@ -1,12 +1,12 @@
 import { Component, lazy } from "solid-js";
 import { Route, Router, Routes } from "@solidjs/router";
 
-const Home = lazy(() => import("@/pages"));
+const Terminal = lazy(() => import("@/components/terminal/Terminal"));
 
 const App: Component = () => {
   return (
     <Routes>
-      <Route path="/" component={Home} />
+      <Route path="/" component={Terminal} />
     </Routes>
   );
 };
