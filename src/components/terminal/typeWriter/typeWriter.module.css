@@ -1,0 +1,15 @@
+.typeWriter {
+    @apply text-lg sm:text-3xl;
+}
+
+company {
+    color: var(--companyColor);
+}
+
+userandhost {
+    color: var(--userandhostColor);
+}
+
+infolocation {
+    color: var(--infolocationColor);
+}
