@@ -1,8 +1,13 @@
-import type { Component } from 'solid-js';
+import { Component, lazy } from "solid-js";
+import { Route, Router, Routes } from "@solidjs/router";
+
+const Home = lazy(() => import("@/pages"));
 
 const App: Component = () => {
   return (
-    <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
+    <Routes>
+      <Route path="/" component={Home} />
+    </Routes>
   );
 };
 
