@@ -26,7 +26,6 @@
     "@solid-primitives/i18n": "^1.1.0",
     "@solidjs/router": "^0.4.2",
     "js-cookie": "^3.0.1",
-    "solid-js": "^1.4.7",
-    "typewriter-effect": "^2.19.0"
+    "solid-js": "^1.4.7"
   }
 }
