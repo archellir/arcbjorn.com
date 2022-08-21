@@ -9,6 +9,10 @@ html {
     "Noto Color Emoji";
 }
 
+#root {
+  @apply container mx-auto h-full;
+}
+
 body {
   --bg: #f9f5ef;
   --color: #1b1d1e;
