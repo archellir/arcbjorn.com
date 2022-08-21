@@ -1,0 +1,8 @@
+.select {
+  background-color: transparent;
+  @apply mx-4 cursor-pointer;
+}
+
+.option {
+  background-color: var(--bg);
+}
